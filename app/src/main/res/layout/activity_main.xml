@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="50dp"
+    android:fillViewport="true"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:title="Portfolio"
+            android:titleTextColor="@android:color/white"/>
+
+        <Switch
+            android:id="@+id/darkModeToggle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="Dark Mode" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:columnCount="2"
+            android:rowCount="3"
+            android:layout_gravity="center">
+
+            <ImageButton
+                android:id="@+id/ibtn1"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="8dp"
+                android:contentDescription="Certifications"
+                android:background="@drawable/cert" />
+
+            <ImageButton
+                android:id="@+id/ibtn2"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="8dp"
+                android:contentDescription="Achievements"
+                android:background="@drawable/ach" />
+
+            <ImageButton
+                android:id="@+id/ibtn3"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="8dp"
+                android:contentDescription="Projects"
+                android:background="@drawable/pro" />
+
+            <ImageButton
+                android:id="@+id/ibtn4"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/ski"
+                android:contentDescription="Skills" />
+
+            <ImageButton
+                android:id="@+id/ibtn5"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="8dp"
+                android:contentDescription="Education"
+                android:background="@drawable/ed" />
+
+            <ImageButton
+                android:id="@+id/ibtn6"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="8dp"
+                android:contentDescription="Hobbies"
+                android:background="@drawable/hob" />
+        </GridLayout>
+
+        <Button
+            android:id="@+id/exit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exit" />
+
+    </LinearLayout>
+</ScrollView>
