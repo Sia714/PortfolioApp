@@ -31,6 +31,23 @@
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
             android:text="Dark Mode" />
+        <Button
+            android:id="@+id/downloadSpecializedResume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📱 Download Specialized CV"
+            android:layout_marginTop="16dp"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/downloadGeneralResume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🧑‍💼 Download General CV"
+            android:layout_marginTop="8dp"
+            android:padding="12dp" />
+
+
 
         <GridLayout
             android:layout_width="match_parent"

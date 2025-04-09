@@ -27,6 +27,17 @@ class MainActivity : AppCompatActivity() {
 
 
         setSupportActionBar(binding.toolbar)
+        binding.downloadSpecializedResume.setOnClickListener {
+            val specializedUrl = "https://drive.google.com/uc?export=download&id=1wxIvK6-m-c4_DI8uDIFJM6Jvx_YxECCH"
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(specializedUrl))
+            startActivity(intent)
+        }
+
+        binding.downloadGeneralResume.setOnClickListener {
+            val generalUrl = "https://drive.google.com/uc?export=download&id=1HHCO5jKdeXu171MIJZr31Ru1edwhQtnH"
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(generalUrl))
+            startActivity(intent)
+        }
 
         binding.ibtn1.setOnClickListener {
             val intent = Intent(this, det2::class.java)
