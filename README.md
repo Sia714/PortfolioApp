@@ -6,14 +6,15 @@ A multi-screen Android portfolio app built with Kotlin and Firebase that showcas
 
 ## 🚀 Features
 
-🔹 Clean, interactive UI using native Android components (no external UI libraries)
-🔹 Multi-screen navigation with intent-based data passing
-🔹 **Certifications** and **Projects** loaded dynamically from Firestore
-🔹 Feedback form with validation and real-time database storage
-🔹 ViewBinding throughout the app for type-safe view access
-🔹 Image loading via Glide
-🔹 MVVM architecture for separation of concerns
-🔹 Designed with performance, readability, and scalability in mind
+- Clean, interactive UI using native Android components (no external UI libraries)
+- Multi-screen navigation with intent-based data passing
+- **Certifications** and **Projects** loaded dynamically from Firestore
+- Feedback form with validation and real-time database storage
+- ViewBinding throughout the app for type-safe view access
+- Image loading via Glide
+- MVVM architecture for separation of concerns
+- Download Specialized or General CV
+- Designed with performance, readability, and scalability in mind
 
 ---
 
